@@ -21,13 +21,13 @@ void Show2dArray(int [,] array){
 }
 
 int [,] ArraySwitsh(int [,] array){
-    int [] sw_array = array;
-    int len0 = array.GetLength(0)-1;
+    int tmp = 0;
     for (int i=0; i < array.GetLength(1); i++){
-        sw_array[0,i] = array[len0,i];
-        sw_array[len0,i] = array[0,i];
+        tmp = array[0,i];
+        array[0,i] = array[array.GetLength(0)-1,i];
+        array[array.GetLength(0)-1,i] = tmp;
     }
-    return sw_array;
+    return array;
 }
 
 Console.WriteLine("Enter col size: ");
