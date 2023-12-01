@@ -1,0 +1,14 @@
+E:\_VSCODE4\HomeWork5\Task2\bin\Debug\net7.0\Task2.exe
+E:\_VSCODE4\HomeWork5\Task2\bin\Debug\net7.0\Task2.deps.json
+E:\_VSCODE4\HomeWork5\Task2\bin\Debug\net7.0\Task2.runtimeconfig.json
+E:\_VSCODE4\HomeWork5\Task2\bin\Debug\net7.0\Task2.dll
+E:\_VSCODE4\HomeWork5\Task2\bin\Debug\net7.0\Task2.pdb
+E:\_VSCODE4\HomeWork5\Task2\obj\Debug\net7.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
+E:\_VSCODE4\HomeWork5\Task2\obj\Debug\net7.0\Task2.AssemblyInfoInputs.cache
+E:\_VSCODE4\HomeWork5\Task2\obj\Debug\net7.0\Task2.AssemblyInfo.cs
+E:\_VSCODE4\HomeWork5\Task2\obj\Debug\net7.0\Task2.csproj.CoreCompileInputs.cache
+E:\_VSCODE4\HomeWork5\Task2\obj\Debug\net7.0\Task2.dll
+E:\_VSCODE4\HomeWork5\Task2\obj\Debug\net7.0\refint\Task2.dll
+E:\_VSCODE4\HomeWork5\Task2\obj\Debug\net7.0\Task2.pdb
+E:\_VSCODE4\HomeWork5\Task2\obj\Debug\net7.0\Task2.genruntimeconfig.cache
+E:\_VSCODE4\HomeWork5\Task2\obj\Debug\net7.0\ref\Task2.dll
