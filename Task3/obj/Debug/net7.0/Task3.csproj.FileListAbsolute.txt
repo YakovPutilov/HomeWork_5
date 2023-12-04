@@ -1,0 +1,14 @@
+E:\_VSCODE4\HomeWork5\Task3\obj\Debug\net7.0\Task3.GeneratedMSBuildEditorConfig.editorconfig
+E:\_VSCODE4\HomeWork5\Task3\obj\Debug\net7.0\Task3.AssemblyInfoInputs.cache
+E:\_VSCODE4\HomeWork5\Task3\obj\Debug\net7.0\Task3.AssemblyInfo.cs
+E:\_VSCODE4\HomeWork5\Task3\obj\Debug\net7.0\Task3.csproj.CoreCompileInputs.cache
+E:\_VSCODE4\HomeWork5\Task3\bin\Debug\net7.0\Task3.exe
+E:\_VSCODE4\HomeWork5\Task3\bin\Debug\net7.0\Task3.deps.json
+E:\_VSCODE4\HomeWork5\Task3\bin\Debug\net7.0\Task3.runtimeconfig.json
+E:\_VSCODE4\HomeWork5\Task3\bin\Debug\net7.0\Task3.dll
+E:\_VSCODE4\HomeWork5\Task3\bin\Debug\net7.0\Task3.pdb
+E:\_VSCODE4\HomeWork5\Task3\obj\Debug\net7.0\Task3.dll
+E:\_VSCODE4\HomeWork5\Task3\obj\Debug\net7.0\refint\Task3.dll
+E:\_VSCODE4\HomeWork5\Task3\obj\Debug\net7.0\Task3.pdb
+E:\_VSCODE4\HomeWork5\Task3\obj\Debug\net7.0\Task3.genruntimeconfig.cache
+E:\_VSCODE4\HomeWork5\Task3\obj\Debug\net7.0\ref\Task3.dll
