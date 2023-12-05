@@ -27,7 +27,7 @@ int [,] ArrWthotMinline(int [,] array){
     int min_i = 0;
     int min_j = 0;
     for(int i = 0; i<array.GetLength(0); i++){
-        for(int j = 0; j<array.GetLength(0); j++){
+        for(int j = 0; j<array.GetLength(1); j++){
             if (array[i,j]<array[min_i,min_j]){
                 min_i = i;
                 min_j = j;
@@ -39,21 +39,17 @@ int [,] ArrWthotMinline(int [,] array){
     int n = 0;
     int m = 0;
     for(int i = 0; i<array.GetLength(0); i++){
-        if(i == min_i){
-            n++;
+        if(i == min_i){  
+            i++;
         }
-        else{                    
-            for(int j = 0; j<array.GetLength(0); j++){
-                if (j == min_j){
-                    m++;
+            for(int j = 0; j<array.GetLength(1); j++){
+                if (j == min_j){                    
+                    j++;                                      
                 }
-                else{
-                    newarray[n,m] = array[i,j];
-                    m++;                    
-                }                          
-            }  
-            n++;          
-        }
+                newarray[n,m] = array[i,j];
+                m++;                       
+            } 
+        n++;
     }      
     return newarray;
 }
