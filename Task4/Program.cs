@@ -36,20 +36,35 @@ int [,] ArrWthotMinline(int [,] array){
     }
     Console.WriteLine(min_i);
     Console.WriteLine(min_j);
-    int n = 0;
-    int m = 0;
-    for(int i = 0; i<array.GetLength(0); i++){
-        if(i == min_i){  
-            i++;
-        }
-            for(int j = 0; j<array.GetLength(1); j++){
-                if (j == min_j){                    
-                    j++;                                      
+    //int n = 0;
+    //int m = 0;
+    for(int i = 0; i<newarray.GetLength(0); i++){
+        if(i < min_i){  
+           for(int j = 0; j<newarray.GetLength(1); j++){
+                if (j < min_j){                    
+                   newarray[i,j] = array[i,j];
+                                                             
                 }
-                newarray[n,m] = array[i,j];
-                m++;                       
+                else{
+                newarray[i,j] = array[i,j+1];
+                }
+                //m++;                       
             } 
-        n++;
+        }
+        else{
+            for(int j = 0; j<newarray.GetLength(1); j++){
+                if (j < min_j){                    
+                   newarray[i,j] = array[i+1,j];
+                                                             
+                }
+                else{
+                newarray[i,j] = array[i+1,j+1];
+                }
+                //m++;                       
+            } 
+        }
+            
+        //n++;
     }      
     return newarray;
 }
